@@ -3,6 +3,8 @@ Real-time FPGA-based phased array controller for M3
 
 This FPGA code is designed to be loaded onto a CmodA7 FPGA module.  For further information about the hardware designs, see [m3.ucsd.edu](http://m3.ucsd.edu).
 
+The Matlab code and FPGA bit files are licensed under the Creative Commons BY-NC-SA license given in LICENSE-CC.txt.
+
 For now, we are only distributing a bit file for the FPGA.  The full source code is coming soon, once we determine our licensing.
 
 ## PC Control Interface
