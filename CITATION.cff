@@ -1,0 +1,28 @@
+# YAML 1.2
+---
+authors: 
+  -
+    affiliation: "UC San Diego"
+    family-names: Zhao
+    given-names: Renjie
+  -
+    affiliation: "UC San Diego"
+    family-names: Woodford
+    given-names: Timothy
+  -
+    affiliation: "UC San Diego"
+    family-names: Wei
+    given-names: Teng
+  -
+    affiliation: "UC San Diego"
+    family-names: Qian
+    given-names: Kun
+  -
+    affiliation: "UC San Diego"
+    family-names: Zhang
+    given-names: Xinyu
+cff-version: "1.1.0"
+doi: "10.1145/3372224.3380892"
+message: "Please cite the original M-Cube paper.  For Bibtex, see http://m3.ucsd.edu/sdr/"
+title: "M-Cube: A Millimeter-Wave Massive MIMO Software Radio"
+...
