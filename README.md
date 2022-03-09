@@ -14,3 +14,5 @@ The CmodA7 device is powered and controlled over a USB serial connection.  The `
 ## CmodA7 Code
 
 The ``CmodA7_ctrl_top.bit`` is built with Vivado 2018.2, and can be used to program the CmodA7 device using the free WebPack version of Vivado.  The ``CmodA7_ctrl_top.bin`` file can be used to persistently program the FPGA using the on-board configuration memory.  See [Digilent's instructions](https://reference.digilentinc.com/learn/programmable-logic/tutorials/cmod-a7-programming-guide/start#programming_the_cmod_a7_using_quad_spi) for more details.
+
+Note that newer CmodA7 models come with a mx25l3233f-spi-x1_x2_x4 memory device, at odds with the instructions referenced above.  If you see an error when attempting to program the device, try removing the default memory configuration device, and adding this device.  Note that Vivado 2019.1 is known not to correctly program these devices, so you should use Vivado 2018.2 instead.
